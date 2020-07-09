@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My website</title>
+		<style type="text/css">
+			.box{
+				width: 300px;
+				height: 200px;
+				border: 1px aqua solid;
+				overflow: hidden;
+			}
+			.one,.two,.tree{
+				width: 300px;
+				height: 200px;
+			}
+			.one{
+				background-color: aquamarine;
+			}
+			.two{
+				background-color: burlywood;
+			}
+			.tree{
+				background-color: lightpink;
+			}
+			a{
+				display: inline-block;
+				width: 40px;
+				border: 1px limegreen solid;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="#one">div1</a>
+		<a href="#two">div2</a>
+		<a href="#tree">div3</a>
+		<div class="box">
+			<div class="one" id="one">div1</div>
+			<div class="two" id="two">div2</div>
+			<div class="tree" id="tree">div3</div>
+		</div>
+	</body>
+</html>
