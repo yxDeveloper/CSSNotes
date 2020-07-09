@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>MY site</title>
+		<style type="text/css">
+			.header,.main,.footer{
+				width: 500px;
+			}
+			.header,.footer{
+				height: 100px;
+				background: #000;
+			}
+			.content{
+				widows: 300px;
+				height: 300px;
+				background: orange;
+				float: left;
+				margin-top:-100px;
+			}
+			.sidebar{
+				width: 190px;
+				height: 300px;
+				background: green;
+				float: right;
+			}
+			.main{
+				background: #eee;
+				margin: 10px 0;
+				overflow: hidden;;
+			}
+			.clearfix:after{
+				content: ".";
+				display: block;
+				height: 0;
+				line-height: 0;
+				visibility: hidden;
+				clear: both;
+			}
+			.clearfix{
+				zoom:1;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<div class="header"></div>
+		<div class="main">
+			<div class="content"></div>
+			<div class="sidebar"></div>
+		</div>
+		<div style="clear: both;"></div>
+	</body>
+</html>
