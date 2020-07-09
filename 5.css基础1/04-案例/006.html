@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My website</title>
+		<style type="text/css">
+			#username{
+				border: dashed #979090 1px;
+				background-color: #C0BFE8;
+				outline-style: none;
+			}
+			input[id="email"]{
+				border: 0 none;
+				border-bottom: red dotted 1px;
+				outline-style:none;
+			}
+			#serch{
+				background-image:url("search.png");
+				background-repeat: no-repeat;
+				background-position:right;
+				border:1px solid 8d8989;
+				outline-style: none;
+			}
+			#username:focus{
+				background-color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<label for="username">用户名：</label>
+		&nbsp;&nbsp;<input type="text" id="username" value="" />
+		<br><br>
+		l<label for="eamil">邮箱: </label>&nbsp;&nbsp;&nbsp;
+		<input type="text" name="" id="email" value="" /><br><br>
+		<label for="serch">搜索一下：</label>&nbsp;<input type="text" name="" id="serch" value="" />
+	</body>
+</html>
